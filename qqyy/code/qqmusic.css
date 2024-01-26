@@ -1,0 +1,132 @@
+a{                         /* 去掉所有链接的下划线 */
+    color: #333;
+    text-decoration: none;
+}
+a:hover {
+    color: #31c27c; /* 鼠标悬停时的颜色 */
+  }
+table,img{
+    padding: 0;
+    margin: 0;
+}
+img{
+    border: 0;
+}
+body{
+    font-family:  "微软雅黑";
+}
+table{
+    border-spacing: 35px;
+}
+.qqtu{
+    position: absolute;
+    width: 170px;
+    height: 46px;
+    left: 140px;
+    top: 37px;
+}
+.top_title{
+    position: absolute;
+    font-size: 20px;
+    left: 330px;
+    top: 0;
+}
+.box_gs{
+    display: inline-block; 
+    /* border: 1px solid;  */
+    padding: 10px;
+    background-color:#31c27c;
+}
+.top_kuang{
+    position: absolute;
+    top: 43px;
+    left: 790px;
+    width: 140px;
+    height: 30px;
+}
+/* .box_ss{
+    position: relative;
+    top: 1000px;
+} */
+.xian{
+    position: relative; /* 开启相对定位 */
+    top: 74px; /* 设置相对于正常位置的垂直偏移量 */
+    opacity: 0.1;
+}
+.top_lie{
+    position: absolute;
+    top: 70px;
+    left: 300px;
+}
+h1{
+    text-align: center;
+
+}
+.page_txt{
+    position: absolute;
+    /* background-color: #ddd; */
+    background: linear-gradient(#ddd 30%,white 70%);
+    top: 150px;
+    left: 0;
+}
+.tuijian_txt{
+    position: absolute;
+    left: 290px;
+    top: 60px;
+}
+img{
+    width: 180px;
+    border-collapse: collapse;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px; /* 设置圆角 */
+    transition: all 0.2s ease-in-out; /* 设置过渡效果 */
+    cursor: pointer; /* 设置鼠标形状为拇指 */
+    position: relative;
+}
+.Recommend{
+    border-spacing: 30px;
+    margin-left: 70px;
+    height: 350px;
+    vertical-align: 100px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: auto;
+}
+.image:hover {
+    transform: scale(1.2); /* 图片放大1.2倍 */
+    z-index: 1; /* 将图片置于顶层 */
+}
+.item {
+    flex: 1 0 200px;
+}
+p{
+    font-size: 14px;
+}
+.bofang1{
+    font-size: 13px;
+    color: #999;
+    position: absolute;
+    top: 367px;
+}
+.bofang2{
+    left: 155px;
+}
+.bofang3{
+    left: 370px;
+}
+.bofang4{
+    left: 583px;
+}
+.bofang5{
+    left: 795px;
+}
+.bofang6{
+    left: 1006px;
+}
+.container1{
+    overflow: auto;
+  }
